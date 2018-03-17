@@ -13,7 +13,7 @@ namespace Domain
                 return zero;
             }
 
-            return numbers.Split(',').Sum(int.Parse);
+            return numbers.Split(',', '\n').Sum(int.Parse);
         }
 
         private bool IsEmpty(string value)
