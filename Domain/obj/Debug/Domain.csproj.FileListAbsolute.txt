@@ -1,0 +1,6 @@
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\bin\Debug\Domain.dll
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\bin\Debug\Domain.pdb
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\obj\Debug\Domain.dll
+C:\Users\Dasha Bayanova\Desktop\TDDKataDevSchool\Domain\obj\Debug\Domain.pdb
