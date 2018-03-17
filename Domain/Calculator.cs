@@ -5,6 +5,7 @@ namespace Domain
     public class Calculator
     {
         private int zero;
+        private readonly char[] separators = {',', '\n'};
 
         public int Add(string numbers)
         {
@@ -13,7 +14,7 @@ namespace Domain
                 return zero;
             }
 
-            return numbers.Split(',', '\n').Sum(int.Parse);
+            return numbers.Split(separators).Sum(int.Parse);
         }
 
         private bool IsEmpty(string value)
