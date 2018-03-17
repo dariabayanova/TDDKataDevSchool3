@@ -4,7 +4,12 @@
     {
         public int Add(string value)
         {
-            return 0;
+            if (string.IsNullOrEmpty(value))
+            {
+                return 0;
+            }
+
+            return int.Parse(value);
         }
     }
 }
