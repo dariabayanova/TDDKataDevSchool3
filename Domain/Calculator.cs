@@ -1,17 +1,19 @@
-﻿namespace Domain
+﻿using System.Linq;
+
+namespace Domain
 {
     public class Calculator
     {
         private int zero;
 
-        public int Add(string value)
+        public int Add(string numbers)
         {
-            if (IsEmpty(value))
+            if (IsEmpty(numbers))
             {
                 return zero;
             }
 
-            return int.Parse(value);
+            return numbers.Split(',').Sum(int.Parse);
         }
 
         private bool IsEmpty(string value)
