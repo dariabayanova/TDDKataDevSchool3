@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Domain;
+using NUnit.Framework;
 
 namespace Tests
 {
@@ -13,14 +14,6 @@ namespace Tests
             var sum = calculator.Add("");
 
             Assert.That(sum, Is.Zero);
-        }
-    }
-
-    public class Calculator
-    {
-        public int Add(string value)
-        {
-            return 0;
         }
     }
 }
